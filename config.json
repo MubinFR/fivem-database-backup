@@ -1,0 +1,22 @@
+{
+  "database_info": {
+    "host": "localhost",
+    "user": "root",
+    "password": "",
+    "database": "your_database_name"
+  },
+  "discord_webhook": {
+    "enable": true,
+    "webhook": "your_discord_webhook_url",
+    "color": "#000000",
+    "footer": "Database Backup"
+  },
+  "backup_schedule": {
+    "days": "all",
+    "hours": "all",
+    "minutes": [
+      0,
+      30
+    ]
+  }
+}
